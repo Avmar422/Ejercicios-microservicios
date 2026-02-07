@@ -1,0 +1,9 @@
+sensores_celsius= [20.5,25.0,30.2,15.8,0.0,38.5]
+sensores_fahrenheit=[]
+
+for c in sensores_celsius:
+    f=(c * 9/5) +32
+    sensores_fahrenheit.append(f)
+
+print(f"Lista original (Celsius): {sensores_celsius}")
+print(f"Lista nueva (Fahrenheit): {sensores_fahrenheit}")

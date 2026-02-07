@@ -1,0 +1,26 @@
+Vehiculo= input("Inserte tipo de vehiculo: ")
+Distancia= float(input("Ingrese distancia en Km: "))
+
+Recargo= 1.50
+
+match Vehiculo:
+    case "Pickup":
+        base= 6.0
+        costo=(Distancia *Recargo)
+        total = base +(Distancia *Recargo)
+        print (f"Precio base:{base}, Costo por distancia: {costo},total:{total}") 
+    case "Gandola":
+        base= 7.00
+        costo=(Distancia *Recargo)
+        total = base +(Distancia *Recargo)
+        print (f"Precio base:{base}, Costo por distancia: {costo},total:{total}") 
+    case "Mudanza":
+        base=10.00
+        costo=(Distancia *Recargo)
+        total = base +(Distancia *Recargo)
+        print (f"Precio base:{base}, Costo por distancia: {costo},total:{total}") 
+    case _:
+        print("Error")
+
+
+

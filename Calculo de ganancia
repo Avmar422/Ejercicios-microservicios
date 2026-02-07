@@ -1,0 +1,6 @@
+Precio= float(input("Inserte precio de venta:"))
+Costo= float(input("Inserte costo de fabricacion:")) 
+
+resta=(Precio - Costo)
+
+print(f"Calculo de ganacia:{resta}")

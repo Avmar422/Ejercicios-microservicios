@@ -1,0 +1,21 @@
+metodo= input("Ingrese metodo de pago:")
+clave= input("Ingrese la clave:")
+
+match metodo:
+    case "Pago movil":
+        if clave.isdigit() and len(clave) == 8:
+            print("Transaccion Valida. Registrando operacion.")
+        else:
+            print("No se pudo realizar la operacion.")
+    case "Tarjeta":
+        if clave.isdigit() and len(clave) == 16: 
+            print("Transaccion Valida. Registrando operacion.")
+        else:
+            print("No se pudo realizar la operacion.")
+    case _:
+            print("Metodo no valido")
+
+            
+        
+
+ 

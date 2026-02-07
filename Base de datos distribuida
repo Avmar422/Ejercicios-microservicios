@@ -1,0 +1,7 @@
+n= int(input("ID: "))
+
+if (n % 2 == 0):
+    print(f"Servidor A")
+else: 
+    print(f"Servidor B")
+

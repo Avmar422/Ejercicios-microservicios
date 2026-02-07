@@ -1,0 +1,4 @@
+Nombre= input("Nombre de usuario: ")
+Cargo= input("Cargo: ")
+
+print(f"Bienvenido,{Nombre}, al sistema de {Cargo}")

@@ -1,7 +1,8 @@
-n= int(input("ID: "))
+numero= int(input("ID: "))
 
-if (n % 2 == 0):
-    print(f"Servidor A")
+if (numero % 2 == 0):
+    print("Servidor A")
 else: 
-    print(f"Servidor B")
+    print("Servidor B")
+
 
